@@ -18,7 +18,6 @@ export default function Dictionary() {
   // 2.
   function search(event) {
     event.preventDefault(); //Prevents the page from reloading
-    alert(`Searching for ${keyword} definition`);
 
     //5.
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
