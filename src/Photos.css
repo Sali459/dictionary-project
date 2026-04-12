@@ -1,0 +1,8 @@
+.Photos img {
+    border-radius: 4px;
+}
+
+.Photos img {
+  max-width: 100%;
+  display: block;
+}
